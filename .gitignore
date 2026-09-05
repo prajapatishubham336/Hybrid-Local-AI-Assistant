@@ -1,39 +1,27 @@
-__pycache__/
-*.pyc
-.venv/
-.env
-.streamlit/secrets.toml
-vectorstore/chroma_db/
-data/*
-# Python
-__pycache__/
-*.py[cod]
-*.pyo
-
-# Virtual Environment
+# Python Virtual Environment
 venv/
-.venv/
+ENV/
 env/
 
-# Streamlit
-.streamlit/secrets.toml
-
-# Uploaded documents - keep private
-data/*
-!data/.gitkeep
-
-# ChromaDB vector database
+# Vector Database local storage
 vectorstore/*
 !vectorstore/chroma_db/.gitkeep
+data/*
 
 # Database files
 *.db
 *.sqlite
 *.sqlite3
 
-# Environment variables
+# Environment variables & Keys
 .env
 
-# OS files
+# Cache & Compiled files
+__pycache__/
+*.py[codz]
+*$py.class
+.pytest_cache/
+
+# OS generated files
 .DS_Store
 Thumbs.db
