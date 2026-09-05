@@ -1,0 +1,10 @@
+streamlit>=1.37,<2
+langchain>=0.3,<1
+langchain-community>=0.3,<1
+langchain-text-splitters>=0.3,<1
+langchain-ollama>=0.2,<1
+langchain-chroma>=0.2,<1
+chromadb>=0.5,<2
+pypdf>=5,<7
+docx2txt>=0.8,<1
+python-docx>=1.1,<2
