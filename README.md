@@ -262,8 +262,7 @@ It stores embeddings and metadata generated from uploaded documents.
 ### Step 1: Clone the Project
 
 ```bash
-git clone <your-github-repository-url>
-cd Hybrid-Local-AI-Assistant
+git clone https://github.com/prajapatishubham336/Hybrid Local AI Assistant.git
 ```
 
 Or simply open the project folder locally.
